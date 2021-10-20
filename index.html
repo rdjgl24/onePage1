@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Page</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <header class="encabezado">
+    <h1 class="title">CROWNE PLAZA</h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#mapa">Ubicacion</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="logo">
+      <figure>
+        <img src="./src/hotel.png" alt="logo">
+      </figure>
+    </section>
+    <div id="servicios">
+      <h2> NUESTROS SERVICIOS </h2>
+      <img src=".//src/habitacion2.jpg" alt="">
+      <img src=".//src/piscina2.jpg" alt="">
+      <img src="./src/casino2.png" alt="">
+      <p>Habitaciones</p>
+      <p>Piscina</p>
+      <p>Casino</p>
+    </div>
+    <div id="contacto">
+      <h2> CONTACTO </h2>
+      <form action="#">
+        <section class="contacto--izq">
+          <input class="input" type="text" name="nombre" placeholder="Escribe tu nombre..."><br>
+          <input class="input" type="email" name="correo" placeholder="Escribe tu correo..."><br>
+          <input class="input" type="text" name="telefono" placeholder="Escribe tu numero de telefono...">
+        </section>
+        <aside class="aside0">
+          <textarea class="textarea" rows="10" name="mensaje" placeholder="Escribe tu mensaje aqui..."></textarea>
+        </aside>
+        <aside class="aside1">
+          <input class="button" type="submit" value="Enviar Mensaje">
+        </aside>
+      </form>
+    </div>
+    <div id="mapa">
+      <h2>UBICANOS</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.675694136305!2d-71.65702763482128!3d10.604508942438281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e899b0000183f43%3A0x3efeaeefd076afcb!2sCrowne%20Plaza%20Maruma%20Hotel%20%26%20Casino!5e0!3m2!1ses!2sve!4v1634747220540!5m2!1ses!2sve"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright 2021. Todos los derechos reservados</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  line-height: 50px;
+  background-color: black;
+  bottom: 0;
+  position: relative;
+  max-height: 50px;
+  padding: 5px;
+  float: none;
+}
+
+.title {
+  color: white;
+  margin-top: 0;
+  margin-inline-end: auto;
+  font-family: monospace;
+  font-size: 32px;
+}
+
+.encabezado {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 38px;
+}
+
+.nav {
+  margin-top: 10px;
+  list-style: none;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #13a4a4;
+  background-color: white;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+
+#servicios {
+  height: 550px;
+  width: 100%;
+  background-size: 100% 100%;
+  text-align: center;
+  color: black;
+  padding-top: 3%;
+  background-color: antiquewhite;
+}
+
+#servicios img {
+  height: 200px;
+  width: 25%;
+  display: block;
+  float: left;
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 0%;
+  border-radius: 100%;
+}
+
+#servicios p {
+  width: 25%;
+  text-align: center;
+  padding-top: 3%;
+  padding-left: 6%;
+  padding-right: 0%;
+  display: block;
+  float: left;
+  color: #000;
+}
+
+#mapa {
+  height: 350px;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+.input {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 20px;
+  color: #000000;
+  float: right;
+  margin-right: 20px;
+}
+
+.textarea {
+  width: 500px;
+  color: #000000;
+  float: none;
+}
+
+.button {
+  color: black;
+  float: none;
+  width: 20%;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+#contacto {
+  height: 450px;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+#contacto h2 {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+
+#contacto .aside0 {
+  width: 50%;
+  float: left
+}
+
+#contacto .aside1 {
+  width: 100%;
+  float: left;
+  align-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto--izq {
+  width: 50%;
+  float: left
+}
+
+#mapa {
+  text-align-last: center;
+  height: 500px;
+  width: 100%;
+  background-color: palegoldenrod;
+}
+
+#mapa h2 {
+  margin-top: 0;
+}
